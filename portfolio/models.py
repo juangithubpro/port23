@@ -1,6 +1,7 @@
 from django.db import models
 from django.db.models.fields import CharField, URLField
 from django.db.models.fields.files import ImageField
+from django.conf import settings
 
 
 class Usuario(models.Model):
